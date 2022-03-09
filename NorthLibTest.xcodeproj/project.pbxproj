@@ -32,8 +32,8 @@
 		AE93F00527D603B100A1FD69 /* WebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewTests.swift; sourceTree = "<group>"; };
 		AEBA634A27D610F200908F11 /* NorthLib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NorthLib; path = ../NorthLib; sourceTree = "<group>"; };
 		AEBA635727D7BBDB00908F11 /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
-		AEBA635927D89B0500908F11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AEBA635A27D89E8500908F11 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AEBA635B27D8A10B00908F11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AEBA635C27D8A11D00908F11 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +51,8 @@
 		AE93EFDA27CE724300A1FD69 = {
 			isa = PBXGroup;
 			children = (
+				AEBA635B27D8A10B00908F11 /* README.md */,
+				AEBA635C27D8A11D00908F11 /* LICENSE */,
 				AEBA634A27D610F200908F11 /* NorthLib */,
 				AE93EFE527CE724300A1FD69 /* NorthLibTest */,
 				AE93EFE427CE724300A1FD69 /* Products */,
@@ -68,8 +70,6 @@
 		AE93EFE527CE724300A1FD69 /* NorthLibTest */ = {
 			isa = PBXGroup;
 			children = (
-				AEBA635927D89B0500908F11 /* README.md */,
-				AEBA635A27D89E8500908F11 /* LICENSE */,
 				AE93F00227D2785800A1FD69 /* Resources */,
 				AE93EFFF27CFCA8300A1FD69 /* TestVC */,
 				AE93EFEA27CE724300A1FD69 /* NavController.swift */,
