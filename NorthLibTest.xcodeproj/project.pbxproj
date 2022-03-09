@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		AE93EFE727CE724300A1FD69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93EFE627CE724300A1FD69 /* AppDelegate.swift */; };
 		AE93EFE927CE724300A1FD69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93EFE827CE724300A1FD69 /* SceneDelegate.swift */; };
-		AE93EFEB27CE724300A1FD69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93EFEA27CE724300A1FD69 /* ViewController.swift */; };
-		AE93EFEE27CE724300A1FD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE93EFEC27CE724300A1FD69 /* Main.storyboard */; };
+		AE93EFEB27CE724300A1FD69 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93EFEA27CE724300A1FD69 /* NavController.swift */; };
 		AE93EFF027CE724400A1FD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE93EFEF27CE724400A1FD69 /* Assets.xcassets */; };
 		AE93EFF327CE724400A1FD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE93EFF127CE724400A1FD69 /* LaunchScreen.storyboard */; };
+		AE93EFFC27CE780800A1FD69 /* NorthLib in Frameworks */ = {isa = PBXBuildFile; productRef = AE93EFFB27CE780800A1FD69 /* NorthLib */; };
+		AE93F00127CFCA9D00A1FD69 /* SimpleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93F00027CFCA9D00A1FD69 /* SimpleUI.swift */; };
+		AE93F00427D2788700A1FD69 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE93F00327D2788700A1FD69 /* test.gif */; };
+		AE93F00627D603B100A1FD69 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93F00527D603B100A1FD69 /* WebViewTests.swift */; };
+		AEBA635827D7BBDB00908F11 /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA635727D7BBDB00908F11 /* KeychainTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE93EFE327CE724300A1FD69 /* NorthLibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthLibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE93EFE627CE724300A1FD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE93EFE827CE724300A1FD69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE93EFEA27CE724300A1FD69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE93EFED27CE724300A1FD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE93EFEA27CE724300A1FD69 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		AE93EFEF27CE724400A1FD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE93EFF227CE724400A1FD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE93EFF427CE724400A1FD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE93F00027CFCA9D00A1FD69 /* SimpleUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUI.swift; sourceTree = "<group>"; };
+		AE93F00327D2788700A1FD69 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
+		AE93F00527D603B100A1FD69 /* WebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewTests.swift; sourceTree = "<group>"; };
+		AEBA634A27D610F200908F11 /* NorthLib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NorthLib; path = ../NorthLib; sourceTree = "<group>"; };
+		AEBA635727D7BBDB00908F11 /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
+		AEBA635927D89B0500908F11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AEBA635A27D89E8500908F11 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE93EFFC27CE780800A1FD69 /* NorthLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,7 @@
 		AE93EFDA27CE724300A1FD69 = {
 			isa = PBXGroup;
 			children = (
+				AEBA634A27D610F200908F11 /* NorthLib */,
 				AE93EFE527CE724300A1FD69 /* NorthLibTest */,
 				AE93EFE427CE724300A1FD69 /* Products */,
 			);
@@ -56,15 +68,36 @@
 		AE93EFE527CE724300A1FD69 /* NorthLibTest */ = {
 			isa = PBXGroup;
 			children = (
+				AEBA635927D89B0500908F11 /* README.md */,
+				AEBA635A27D89E8500908F11 /* LICENSE */,
+				AE93F00227D2785800A1FD69 /* Resources */,
+				AE93EFFF27CFCA8300A1FD69 /* TestVC */,
+				AE93EFEA27CE724300A1FD69 /* NavController.swift */,
 				AE93EFE627CE724300A1FD69 /* AppDelegate.swift */,
 				AE93EFE827CE724300A1FD69 /* SceneDelegate.swift */,
-				AE93EFEA27CE724300A1FD69 /* ViewController.swift */,
-				AE93EFEC27CE724300A1FD69 /* Main.storyboard */,
-				AE93EFEF27CE724400A1FD69 /* Assets.xcassets */,
-				AE93EFF127CE724400A1FD69 /* LaunchScreen.storyboard */,
-				AE93EFF427CE724400A1FD69 /* Info.plist */,
 			);
 			path = NorthLibTest;
+			sourceTree = "<group>";
+		};
+		AE93EFFF27CFCA8300A1FD69 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				AE93F00027CFCA9D00A1FD69 /* SimpleUI.swift */,
+				AE93F00527D603B100A1FD69 /* WebViewTests.swift */,
+				AEBA635727D7BBDB00908F11 /* KeychainTests.swift */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
+		AE93F00227D2785800A1FD69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE93F00327D2788700A1FD69 /* test.gif */,
+				AE93EFF427CE724400A1FD69 /* Info.plist */,
+				AE93EFEF27CE724400A1FD69 /* Assets.xcassets */,
+				AE93EFF127CE724400A1FD69 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +116,9 @@
 			dependencies = (
 			);
 			name = NorthLibTest;
+			packageProductDependencies = (
+				AE93EFFB27CE780800A1FD69 /* NorthLib */,
+			);
 			productName = NorthLibTest;
 			productReference = AE93EFE327CE724300A1FD69 /* NorthLibTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +147,9 @@
 				Base,
 			);
 			mainGroup = AE93EFDA27CE724300A1FD69;
+			packageReferences = (
+				AE93EFFA27CE780800A1FD69 /* XCRemoteSwiftPackageReference "NorthLib" */,
+			);
 			productRefGroup = AE93EFE427CE724300A1FD69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +165,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE93EFF327CE724400A1FD69 /* LaunchScreen.storyboard in Resources */,
+				AE93F00427D2788700A1FD69 /* test.gif in Resources */,
 				AE93EFF027CE724400A1FD69 /* Assets.xcassets in Resources */,
-				AE93EFEE27CE724300A1FD69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE93EFEB27CE724300A1FD69 /* ViewController.swift in Sources */,
+				AE93EFEB27CE724300A1FD69 /* NavController.swift in Sources */,
+				AE93F00127CFCA9D00A1FD69 /* SimpleUI.swift in Sources */,
+				AE93F00627D603B100A1FD69 /* WebViewTests.swift in Sources */,
 				AE93EFE727CE724300A1FD69 /* AppDelegate.swift in Sources */,
+				AEBA635827D7BBDB00908F11 /* KeychainTests.swift in Sources */,
 				AE93EFE927CE724300A1FD69 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +189,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE93EFEC27CE724300A1FD69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE93EFED27CE724300A1FD69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE93EFF127CE724400A1FD69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,17 +325,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3R3GBCY6FA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NorthLibTest/Info.plist;
+				INFOPLIST_FILE = NorthLibTest/Resources/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save VC's view to photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = de.taz.NorthLibTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -319,17 +353,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3R3GBCY6FA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NorthLibTest/Info.plist;
+				INFOPLIST_FILE = NorthLibTest/Resources/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save VC's view to photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = de.taz.NorthLibTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -360,6 +394,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE93EFFA27CE780800A1FD69 /* XCRemoteSwiftPackageReference "NorthLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nthies/NorthLib";
+			requirement = {
+				branch = spm;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE93EFFB27CE780800A1FD69 /* NorthLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE93EFFA27CE780800A1FD69 /* XCRemoteSwiftPackageReference "NorthLib" */;
+			productName = NorthLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE93EFDB27CE724300A1FD69 /* Project object */;
 }
