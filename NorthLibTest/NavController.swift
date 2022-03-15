@@ -10,7 +10,17 @@ import NorthLib
 
 class NavController: NavigationController {
   
-  var vcTable = VCTable()
+  var vcTable: VCTable
+  
+  init(delegate: VCTableDelegate? = nil) {
+    vcTable = VCTable(delegate: delegate) 
+    super.init(nibName: nil, bundle: nil)
+  }
+  
+  required init?(coder: NSCoder) {
+    vcTable = VCTable()
+    super.init(coder: coder)
+  }
   
   override func viewDidLoad() {
     super.viewDidLoad()

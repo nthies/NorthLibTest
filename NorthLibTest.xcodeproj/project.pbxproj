@@ -17,6 +17,7 @@
 		AE93F00427D2788700A1FD69 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE93F00327D2788700A1FD69 /* test.gif */; };
 		AE93F00627D603B100A1FD69 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93F00527D603B100A1FD69 /* WebViewTests.swift */; };
 		AEBA635827D7BBDB00908F11 /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA635727D7BBDB00908F11 /* KeychainTests.swift */; };
+		AEBA635F27D9022800908F11 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA635E27D9022800908F11 /* SplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AEBA635727D7BBDB00908F11 /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
 		AEBA635B27D8A10B00908F11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AEBA635C27D8A11D00908F11 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AEBA635E27D9022800908F11 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				AE93EFEA27CE724300A1FD69 /* NavController.swift */,
 				AE93EFE627CE724300A1FD69 /* AppDelegate.swift */,
 				AE93EFE827CE724300A1FD69 /* SceneDelegate.swift */,
+				AEBA635E27D9022800908F11 /* SplitViewController.swift */,
 			);
 			path = NorthLibTest;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE93EFEB27CE724300A1FD69 /* NavController.swift in Sources */,
+				AEBA635F27D9022800908F11 /* SplitViewController.swift in Sources */,
 				AE93F00127CFCA9D00A1FD69 /* SimpleUI.swift in Sources */,
 				AE93F00627D603B100A1FD69 /* WebViewTests.swift in Sources */,
 				AE93EFE727CE724300A1FD69 /* AppDelegate.swift in Sources */,
@@ -321,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NorthLibTest/NorthLibTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3R3GBCY6FA;
@@ -338,6 +343,7 @@
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = de.taz.NorthLibTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -349,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NorthLibTest/NorthLibTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3R3GBCY6FA;
@@ -366,6 +373,7 @@
 				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = de.taz.NorthLibTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

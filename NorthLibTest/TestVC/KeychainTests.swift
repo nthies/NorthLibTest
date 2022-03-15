@@ -122,7 +122,7 @@ class KeychainTests: UIViewController, VCDescription {
     clearButton.textColor = UIColor.white
     clearButton.textAlignment = .center
     pin(clearButton.centerX, to: view.centerX)
-    pin(clearButton.bottom, to: view.bottomGuide())
+    pin(clearButton.bottom, to: view.bottomGuide(), dist: -10)
     clearButton.pinWidth(250)
     clearButton.pinHeight(40)
     clearButton.text = "Clear tmp Keychain values"
