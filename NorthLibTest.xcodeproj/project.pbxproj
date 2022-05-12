@@ -12,12 +12,12 @@
 		AE93EFEB27CE724300A1FD69 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93EFEA27CE724300A1FD69 /* NavController.swift */; };
 		AE93EFF027CE724400A1FD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE93EFEF27CE724400A1FD69 /* Assets.xcassets */; };
 		AE93EFF327CE724400A1FD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE93EFF127CE724400A1FD69 /* LaunchScreen.storyboard */; };
-		AE93EFFC27CE780800A1FD69 /* NorthLib in Frameworks */ = {isa = PBXBuildFile; productRef = AE93EFFB27CE780800A1FD69 /* NorthLib */; };
 		AE93F00127CFCA9D00A1FD69 /* SimpleUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93F00027CFCA9D00A1FD69 /* SimpleUI.swift */; };
 		AE93F00427D2788700A1FD69 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = AE93F00327D2788700A1FD69 /* test.gif */; };
 		AE93F00627D603B100A1FD69 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93F00527D603B100A1FD69 /* WebViewTests.swift */; };
 		AEBA635827D7BBDB00908F11 /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA635727D7BBDB00908F11 /* KeychainTests.swift */; };
 		AEBA635F27D9022800908F11 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA635E27D9022800908F11 /* SplitViewController.swift */; };
+		AECD1A94282D094D007E00EE /* NorthLib in Frameworks */ = {isa = PBXBuildFile; productRef = AECD1A93282D094D007E00EE /* NorthLib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,6 @@
 		AE93F00027CFCA9D00A1FD69 /* SimpleUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUI.swift; sourceTree = "<group>"; };
 		AE93F00327D2788700A1FD69 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 		AE93F00527D603B100A1FD69 /* WebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewTests.swift; sourceTree = "<group>"; };
-		AEBA634A27D610F200908F11 /* NorthLib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NorthLib; path = ../NorthLib; sourceTree = "<group>"; };
 		AEBA635727D7BBDB00908F11 /* KeychainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTests.swift; sourceTree = "<group>"; };
 		AEBA635B27D8A10B00908F11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AEBA635C27D8A11D00908F11 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -43,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE93EFFC27CE780800A1FD69 /* NorthLib in Frameworks */,
+				AECD1A94282D094D007E00EE /* NorthLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,7 +54,6 @@
 			children = (
 				AEBA635B27D8A10B00908F11 /* README.md */,
 				AEBA635C27D8A11D00908F11 /* LICENSE */,
-				AEBA634A27D610F200908F11 /* NorthLib */,
 				AE93EFE527CE724300A1FD69 /* NorthLibTest */,
 				AE93EFE427CE724300A1FD69 /* Products */,
 			);
@@ -120,7 +118,7 @@
 			);
 			name = NorthLibTest;
 			packageProductDependencies = (
-				AE93EFFB27CE780800A1FD69 /* NorthLib */,
+				AECD1A93282D094D007E00EE /* NorthLib */,
 			);
 			productName = NorthLibTest;
 			productReference = AE93EFE327CE724300A1FD69 /* NorthLibTest.app */;
@@ -151,7 +149,7 @@
 			);
 			mainGroup = AE93EFDA27CE724300A1FD69;
 			packageReferences = (
-				AE93EFFA27CE780800A1FD69 /* XCRemoteSwiftPackageReference "NorthLib" */,
+				AECD1A92282D094D007E00EE /* XCRemoteSwiftPackageReference "NorthLib" */,
 			);
 			productRefGroup = AE93EFE427CE724300A1FD69 /* Products */;
 			projectDirPath = "";
@@ -404,20 +402,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AE93EFFA27CE780800A1FD69 /* XCRemoteSwiftPackageReference "NorthLib" */ = {
+		AECD1A92282D094D007E00EE /* XCRemoteSwiftPackageReference "NorthLib" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nthies/NorthLib";
+			repositoryURL = "https://github.com/die-tageszeitung/NorthLib.git";
 			requirement = {
-				branch = spm;
+				branch = release;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AE93EFFB27CE780800A1FD69 /* NorthLib */ = {
+		AECD1A93282D094D007E00EE /* NorthLib */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AE93EFFA27CE780800A1FD69 /* XCRemoteSwiftPackageReference "NorthLib" */;
+			package = AECD1A92282D094D007E00EE /* XCRemoteSwiftPackageReference "NorthLib" */;
 			productName = NorthLib;
 		};
 /* End XCSwiftPackageProductDependency section */
