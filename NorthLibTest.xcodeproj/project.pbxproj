@@ -17,6 +17,7 @@
 		AE93F00627D603B100A1FD69 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE93F00527D603B100A1FD69 /* WebViewTests.swift */; };
 		AEBA635827D7BBDB00908F11 /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA635727D7BBDB00908F11 /* KeychainTests.swift */; };
 		AEBA635F27D9022800908F11 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBA635E27D9022800908F11 /* SplitViewController.swift */; };
+		AECC9FC02B06196800E352B8 /* moment.gif in Resources */ = {isa = PBXBuildFile; fileRef = AECC9FBF2B06196800E352B8 /* moment.gif */; };
 		AECD1A94282D094D007E00EE /* NorthLib in Frameworks */ = {isa = PBXBuildFile; productRef = AECD1A93282D094D007E00EE /* NorthLib */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,8 @@
 		AEBA635B27D8A10B00908F11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AEBA635C27D8A11D00908F11 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AEBA635E27D9022800908F11 /* SplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		AECC9FBF2B06196800E352B8 /* moment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = moment.gif; sourceTree = "<group>"; };
+		AEE228BF2B0617AA00D77822 /* NorthLib */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NorthLib; path = ../NorthLib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 		AE93EFDA27CE724300A1FD69 = {
 			isa = PBXGroup;
 			children = (
+				AEE228BF2B0617AA00D77822 /* NorthLib */,
 				AEBA635B27D8A10B00908F11 /* README.md */,
 				AEBA635C27D8A11D00908F11 /* LICENSE */,
 				AE93EFE527CE724300A1FD69 /* NorthLibTest */,
@@ -93,6 +97,7 @@
 		AE93F00227D2785800A1FD69 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AECC9FBF2B06196800E352B8 /* moment.gif */,
 				AE93F00327D2788700A1FD69 /* test.gif */,
 				AE93EFF427CE724400A1FD69 /* Info.plist */,
 				AE93EFEF27CE724400A1FD69 /* Assets.xcassets */,
@@ -167,6 +172,7 @@
 			files = (
 				AE93EFF327CE724400A1FD69 /* LaunchScreen.storyboard in Resources */,
 				AE93F00427D2788700A1FD69 /* test.gif in Resources */,
+				AECC9FC02B06196800E352B8 /* moment.gif in Resources */,
 				AE93EFF027CE724400A1FD69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

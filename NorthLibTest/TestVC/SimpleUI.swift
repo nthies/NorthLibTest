@@ -148,11 +148,18 @@ class SimpleUI: UIViewController, VCDescription {
       gif = nil
       return
     }
-    if let path = Bundle.main.path(forResource: "test", ofType: "gif"),
+    if let path = Bundle.main.path(forResource: "moment", ofType: "gif"),
       let image = UIImage.animatedGif(File(path).data) {
       gif = UIImageView(image: image)
       self.view.addSubview(gif!)
-      gif!.pinSize(image.size)
+      var isize = image.size
+      let maxHeight: CGFloat = 200
+      if isize.height > maxHeight {
+        let factor = maxHeight / isize.height
+        isize.height *= factor
+        isize.width *= factor
+      }
+      gif!.pinSize(isize)
       pin(gif!.top, to: self.view.topGuide(), dist: 10)
       pin(gif!.left, to: self.view.leftGuide(), dist: 10)
     }

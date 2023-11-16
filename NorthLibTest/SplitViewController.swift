@@ -54,10 +54,12 @@ class SplitViewController: UISplitViewController, UISplitViewControllerDelegate,
     return .primary
   }
   
+  /* not needed for doubleColumn splitviews
   public func splitViewController(_ splitViewController: UISplitViewController,
     collapseSecondary secondaryViewController: UIViewController,
     onto primaryViewController: UIViewController) -> Bool {
     return true
   }
+  */
 
 } // SplitViewController
