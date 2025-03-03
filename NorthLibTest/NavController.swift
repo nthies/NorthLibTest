@@ -28,6 +28,7 @@ class NavController: NavigationController {
     vcTable.add(vcd: SimpleUI.self)
     vcTable.add(vcd: WebViewTests.self)
     vcTable.add(vcd: KeychainTests.self)
+    vcTable.add(vcd: DownloadTests.self)
     pushViewController(vcTable, animated: false)
   }
 
